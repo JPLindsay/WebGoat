@@ -67,6 +67,8 @@ jobs:
     #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
 
     - run: |
+        echo "Maven version"
+        mvn -v
         echo "Run, Build Application using script"
         mvn clean install
     #     ./location_of_script_within_repo/buildscript.sh
