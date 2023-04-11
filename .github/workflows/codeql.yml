@@ -74,7 +74,7 @@ jobs:
         echo "Maven version"
         mvn -v
         echo "Run, Build Application using script"
-        mvn clean install
+        mvn clean install -DskipTests
     #     ./location_of_script_within_repo/buildscript.sh
 
     - name: Perform CodeQL Analysis
